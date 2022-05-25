@@ -2,6 +2,7 @@ import Title from "./components/Title";
 import Carousel from "./components/Carousel";
 import VerticalOptions from "./components/VerticalOptions"
 
+
 function App() {
   return (
     <>
