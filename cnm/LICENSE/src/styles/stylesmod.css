@@ -1,0 +1,17 @@
+.vertical-timeline-element-title{
+    font-style: italic;
+    font-weight: 600;
+}
+.vertical-timeline-element-content{
+   box-shadow:  3px 4px 0px 2px #ffeb3b;
+}
+.vertical-timeline{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.vertical-timeline-element--work--last{
+    padding-bottom: 2em;
+}
+.roadmap{
+    padding-bottom: 0em;
+}
