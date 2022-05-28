@@ -7,12 +7,13 @@ import {
   useColorModeValue,
   Link,
 } from "@chakra-ui/react";
-import infocs from "./object/infoCE";
+import infocs from "../../../components/object/infoCE";
 
-export default function AboutMe(){
+export default function AboutMeCard(){
   return (
+    
     <Flex
-      bg={useColorModeValue("#F9FAFB", "gray.600")}
+      bg="#210039"
       p={50}
       w="full"
       alignItems="center"
@@ -28,7 +29,7 @@ export default function AboutMe(){
         <Image
           roundedTop="lg"
           w="full"
-          h={64}
+          h="10%"
           fit="cover"
           src="https://i.imgur.com/ViAJsvP.jpg"
           alt="imagen primer plano Candela Errandonea"
@@ -37,19 +38,22 @@ export default function AboutMe(){
         <Box p={6}>
           <Box>
             <chakra.span
-              fontSize="xs"
+              fontSize="lg"
+              fontWeight="600"
               textTransform="uppercase"
-              color={useColorModeValue("brand.600", "brand.400")}
+              color="#A800FC"
             >
               About me
             </chakra.span>
             <Link
+              href="https://www.instagram.com/candelaenmovimiento/" isExternal
               display="block"
               color={useColorModeValue("gray.800", "white")}
               fontWeight="bold"
               fontSize="2xl"
               mt={2}
               _hover={{ color: "gray.600", textDecor: "underline" }}
+              
             >
               Candela Errandonea Rivarola
             </Link>
@@ -66,6 +70,7 @@ export default function AboutMe(){
         </Box>
       </Box>
     </Flex>
+
   );
 };
 

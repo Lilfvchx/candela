@@ -6,8 +6,6 @@ import "react-vertical-timeline-component/style.min.css";
 import "../styles/stylesmod.css";
 import { BsFillFilePersonFill } from "react-icons/bs";
 
-
-
 //npm install @react-icons/all-files --save
 export default function VerticalOptions() {
   return (
@@ -73,7 +71,9 @@ export default function VerticalOptions() {
         boxShadow="4px 2px 0px 5px #ddd"
         icon={<BsFillFilePersonFill />}
       >
-        <h3 className="vertical-timeline-element-title">Redes sociales y contacto</h3>
+        <h3 className="vertical-timeline-element-title">
+          Redes sociales y contacto
+        </h3>
       </VerticalTimelineElement>
     </VerticalTimeline>
   );
