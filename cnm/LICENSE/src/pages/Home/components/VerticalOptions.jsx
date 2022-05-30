@@ -3,7 +3,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import "../styles/stylesmod.css";
+import "../../../styles/stylesmod.css";
 import { BsFillFilePersonFill } from "react-icons/bs";
 
 //npm install @react-icons/all-files --save

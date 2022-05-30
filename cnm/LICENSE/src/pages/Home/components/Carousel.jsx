@@ -8,7 +8,7 @@ import {
   Center,
   HStack,
 } from "@chakra-ui/react";
-import Slides from "./object/object";
+import Slides from "../../../components/object/object";
 
 
 const Carousel = () => {

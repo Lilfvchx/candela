@@ -1,8 +1,7 @@
-import Title from "./components/Title";
-import Carousel from "./components/Carousel";
-import VerticalOptions from "./components/VerticalOptions";
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Aboutme from "./pages/AboutPage/Aboutmepage";
+import Home from "./pages/Home/Home"
 function App() {
   return (
     <Router>
@@ -12,9 +11,7 @@ function App() {
           path="/"
           element={
             <>
-              <Title title="Candela Errandonea Rivarola " className="titulo" />
-              <Carousel />
-              <VerticalOptions />              
+              <Home></Home>
             </>
           }
         ></Route>
