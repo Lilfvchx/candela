@@ -18,6 +18,7 @@ export default function AboutMeCard(){
       w="full"
       alignItems="center"
       justifyContent="center"
+      className="about-me-card"
     >
       <Box
         mx="auto"
