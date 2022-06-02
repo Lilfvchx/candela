@@ -13,7 +13,6 @@ export default function AboutMeCard(){
   return (
     
     <Flex
-      bg="#210039"
       p={50}
       w="full"
       alignItems="center"
