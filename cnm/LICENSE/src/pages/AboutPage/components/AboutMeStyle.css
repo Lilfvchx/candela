@@ -1,24 +1,35 @@
-#root .Navbar {
+.aboutme .Navbar {
   transform: translatex(23px) translatey(60px) !important;
 }
-#root {
+.aboutme {
   background-color: #210039;
 }
 @media (max-width:425px){
-    #root{
+    .aboutme{
         background-image: url(./waveforphone.svg);
     }
     /* Svg */
-    #root .Navbar svg{
+    .aboutme .Navbar svg{
       background-color:transparent;
       position:relative;
       top:-29px;
       height:47px;
      }
+     .nav-menu{
+      transform:translatex(0px) translatey(0px);
+      background-image: url(./waveforphone.svg);
    }
+  }
 @media (min-width:426px){
-    #root {
+    .aboutme {
         background-image: url(./wavesforcomputer.svg)
     
     }
+    .nav-menu{
+      transform:translatex(0px) translatey(0px);
+      background-image: url(./wavesforcomputer.svg);
+   }
+   .navbar-toggle{
+     background-image: url(./wavesforcomputer.svg);
+   }
 }

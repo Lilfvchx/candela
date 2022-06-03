@@ -4,10 +4,10 @@ import NavBar from "../../components/shared/NavBar"
 import "./components/AboutMeStyle.css"
 function Aboutme() {
   return (
-    <>
+    <div className='aboutme'>
         <NavBar/>
         <AboutMeCard />
-    </>
+    </div>
   )
 }
 
