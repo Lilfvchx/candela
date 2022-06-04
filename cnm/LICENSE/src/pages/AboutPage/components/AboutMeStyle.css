@@ -6,7 +6,7 @@
 }
 @media (max-width:425px){
     .aboutme{
-        background-image: url(./waveforphone.svg);
+        background-image: url(./Moon.svg);
     }
     /* Svg */
     .aboutme .Navbar svg{
@@ -17,8 +17,17 @@
      }
      .nav-menu{
       transform:translatex(0px) translatey(0px);
-      background-image: url(./waveforphone.svg);
+      background-image: url(./Moon.svg);
    }
+   .navbar-toggle{
+     background-image: url(./Moon.svg);
+   }
+   .Navbar .fabars{
+    width:40px;
+    padding-right:6px;
+   }
+
+
   }
 @media (min-width:426px){
     .aboutme {

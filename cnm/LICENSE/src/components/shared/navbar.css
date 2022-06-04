@@ -1,9 +1,10 @@
 .navbar {
-    background-color: #210039;
+
     height: 80px;
     display: flex;
     justify-content: start;
     align-items: center;
+    opacity: 0;
     
   }
   
@@ -12,7 +13,13 @@
     font-size: 2rem;
     background: none;
   }
-  
+  @media (max-width: 600px){
+      .fabars{
+        color: white;
+    
+      }
+
+  }
   .nav-menu {
     background-color: #060b26;
     width: 250px;

@@ -13,7 +13,7 @@ function NavBar() {
   return (
     <>
       <div className="Navbar">
-          <FaBars size="3%" onClick={showSidebar}><Link to="#" ></Link></FaBars>
+          <FaBars size="3%" onClick={showSidebar} className="fabars"><Link to="#" ></Link></FaBars>
       </div>
       <nav className={sidebar ? 'nav-menu active' : 'nav-menu '}>
         <ul className="nav-menu-items">
