@@ -15,3 +15,8 @@
 .roadmap{
     padding-bottom: 0em;
 }
+@media (max-width:425px) {
+    .vertical-timeline::before{
+        left:2em;
+    }
+}
