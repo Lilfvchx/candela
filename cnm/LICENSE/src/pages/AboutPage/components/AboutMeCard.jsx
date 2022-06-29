@@ -6,20 +6,12 @@ import {
   Flex,
   useColorModeValue,
   Link,
-<<<<<<< HEAD
 } from '@chakra-ui/react'
 import { FcGoogle } from 'react-icons/fc'
 import { FaFacebook } from 'react-icons/fa'
 import { SiYoutube, SiInstagram } from 'react-icons/si'
 import { Button, Center, Stack, Text } from '@chakra-ui/react'
 import infocs from '../../../components/object/infoCE'
-=======
-} from "@chakra-ui/react";
-import infocs from "../../../components/object/infoCE";
-import { ImYoutube } from 'react-icons/im';
-import {  SiInstagram } from 'react-icons/si';
-import {  Button, Center, Stack, Text } from '@chakra-ui/react';
->>>>>>> 20181e536156689f21699b86baefb7830c01f674
 
 export default function AboutMeCard() {
   return (
@@ -115,28 +107,6 @@ export default function AboutMeCard() {
             </Stack>
           </Center>
         </Box>
-        <Center p={8}>
-      <Stack spacing={2} align={'center'} maxW={'md'} w={'full'}>
-
-        {/* Youtube */}
-        <Link to="https://www.youtube.com/channel/UCwI67p72iKpxwr8LSz-dv0A" isExternal>
-        <Button w={'full'} colorScheme={'red'} leftIcon={<ImYoutube/>}>
-          <Center>
-            <Text>Send to Linkedin</Text>
-          </Center>
-        </Button>
-        </Link>
-
-        {/* instagram */}
-        <Link to="https://www.instagram.com/candelaenmovimiento/" isExternal>
-        <Button w={'full'} colorScheme={'messenger'} leftIcon={<SiInstagram/>}>
-          <Center>
-            <Text>Instagram</Text>
-          </Center>
-        </Button>
-        </Link>
-      </Stack>
-    </Center>
       </Box>
     </Flex>
   )

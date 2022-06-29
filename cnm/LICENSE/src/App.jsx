@@ -31,15 +31,12 @@ function App() {
           path="/obras"
           element={
             <>
+            <NavBar/>
               <Obras/>
             </>
           }
         ></Route>
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> 20181e536156689f21699b86baefb7830c01f674
           <Route
           exact
           path="*"
