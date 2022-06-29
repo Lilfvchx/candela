@@ -1,0 +1,34 @@
+/* Paragraph */
+.obras .navbar-toggle,
+.obras nav{
+  background-image: url(obras.svg)
+
+}
+
+.Navbar {
+  transform: translatex(23px) translatey(60px) !important;
+  background-image: url(obras.svg)
+}
+.obras{
+  background-image:url(obras.svg);
+}
+p{
+  color: black;
+}
+.titulo{
+  font-weight:700;
+  font-size:32px;
+  color: black;
+ }
+ 
+ /* Chakra text */
+ .fecha{
+  font-size:25px;
+  font-style: italic;
+ }
+ 
+ /* Paragraph */
+ .info{
+  font-size:17px;
+ }
+ 
