@@ -8,6 +8,9 @@ import {
   Link,
 } from "@chakra-ui/react";
 import infocs from "../../../components/object/infoCE";
+import { ImYoutube } from 'react-icons/im';
+import {  SiInstagram } from 'react-icons/si';
+import {  Button, Center, Stack, Text } from '@chakra-ui/react';
 
 export default function AboutMeCard(){
   return (
@@ -68,6 +71,28 @@ export default function AboutMeCard(){
 
           
         </Box>
+        <Center p={8}>
+      <Stack spacing={2} align={'center'} maxW={'md'} w={'full'}>
+
+        {/* Youtube */}
+        <Link to="https://www.youtube.com/channel/UCwI67p72iKpxwr8LSz-dv0A" isExternal>
+        <Button w={'full'} colorScheme={'red'} leftIcon={<ImYoutube/>}>
+          <Center>
+            <Text>Send to Linkedin</Text>
+          </Center>
+        </Button>
+        </Link>
+
+        {/* instagram */}
+        <Link to="https://www.instagram.com/candelaenmovimiento/" isExternal>
+        <Button w={'full'} colorScheme={'messenger'} leftIcon={<SiInstagram/>}>
+          <Center>
+            <Text>Instagram</Text>
+          </Center>
+        </Button>
+        </Link>
+      </Stack>
+    </Center>
       </Box>
     </Flex>
 

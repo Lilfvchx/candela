@@ -1,4 +1,14 @@
 /* Paragraph */
+.obras .navbar-toggle,
+.obras nav{
+  background-image: url(obras.svg)
+
+}
+
+.Navbar {
+  transform: translatex(23px) translatey(60px) !important;
+  background-image: url(obras.svg)
+}
 .obras{
   background-image:url(obras.svg);
 }
