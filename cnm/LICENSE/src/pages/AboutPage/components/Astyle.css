@@ -2,9 +2,15 @@
   transform: translatex(23px) translatey(60px) !important;
 }
 .aboutme {
-  background-color: #210039;
+  background-color: #cfbddb;
 }
+#root .aboutme .Navbar{
+  background-image:none;
+ }
 @media (max-width:425px){
+  #root .aboutme .Navbar{
+    background-image:none;
+   }
     .aboutme{
         background-image: url(./Moon.svg);
     }
@@ -19,6 +25,7 @@
       transform:translatex(0px) translatey(0px);
       background-image: url(./Moon.svg);
    }
+
    .navbar-toggle{
      background-image: url(./Moon.svg);
    }
@@ -30,6 +37,9 @@
 
   }
 @media (min-width:426px){
+  #root .aboutme .Navbar{
+    background-image:none;
+   }
     .aboutme {
         background-image: url(./wavesforcomputer.svg)
     

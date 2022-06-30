@@ -21,10 +21,5 @@ export const SidebarData = [
     icon: <VscPerson size="1.8em" title='About Me'/>,
     cName: "nav-text",
 },
-{
-    title:"Contacto",
-    path: "/contacto",
-    icon: <BiBookHeart size="1.8em" title='Contacto'/>,
-    cName: "nav-text",
-},
+
 ]

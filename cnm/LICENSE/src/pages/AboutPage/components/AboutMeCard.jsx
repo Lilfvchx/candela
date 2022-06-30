@@ -8,7 +8,8 @@ import {
   Link,
 } from "@chakra-ui/react";
 import infocs from "../../../components/object/infoCE";
-
+import SocialMedia from "./SocialMedia";
+import "./Astyle.css"
 export default function AboutMeCard(){
   return (
     
@@ -64,10 +65,9 @@ export default function AboutMeCard(){
             >
               {infocs.map((info, index) => <p key={index}>{info}</p>)}
             </chakra.p>
-          </Box>
-
-          
+          </Box> 
         </Box>
+        <SocialMedia />
       </Box>
     </Flex>
 
