@@ -4,6 +4,7 @@ import Home from './pages/Home/Home'
 import Obras from "./pages/Obras/Obras"
 import Error from "./pages/Error/Error"
 import NavBar from './components/shared/NavBar'
+import CV from "./pages/Roadmap/Roadmap";
 function App() {
   return (
     <Router>
@@ -46,7 +47,15 @@ function App() {
             </>
           }
         ></Route>
-       
+       <Route
+          exact
+          path="/formacion"
+          element={
+            <>
+              <CV/>
+            </>
+          }
+        ></Route>
 
       </Routes>
     </Router>

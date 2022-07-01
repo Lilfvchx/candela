@@ -5,10 +5,11 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import "../../../styles/stylesmod.css";
 import { BsFillFilePersonFill } from "react-icons/bs";
-
+import {Link} from "react-router-dom";
 //npm install @react-icons/all-files --save
 export default function VerticalOptions() {
   return (
+    
     <VerticalTimeline className="roadmap">
       <VerticalTimelineElement
         className="vertical-timeline-element--work "
@@ -22,9 +23,11 @@ export default function VerticalOptions() {
         boxShadow="4px 2px 0px 5px #ddd"
         icon={<BsFillFilePersonFill />}
       >
+      <Link to={"/aboutme"}>
         <h3 className="vertical-timeline-element-title">
-          Informacion sobre mi formacion semiprofesional
+          About me
         </h3>
+        </Link>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -39,9 +42,11 @@ export default function VerticalOptions() {
         boxShadow="4px 2px 0px 5px #ddd"
         icon={<BsFillFilePersonFill />}
       >
+      <Link to={"/obras"}>
         <h3 className="vertical-timeline-element-title">
           Obras en que participe
         </h3>
+        </Link>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -56,10 +61,12 @@ export default function VerticalOptions() {
         boxShadow="4px 2px 0px 5px #ddd"
         icon={<BsFillFilePersonFill />}
       >
-        <h1 className="vertical-timeline-element-title">Resumen sobre mi</h1>
+      <Link to={"/formacion"}>
+        <h1 className="vertical-timeline-element-title">Resumen sobre mi formacion profesional</h1>
+        </Link>
       </VerticalTimelineElement>
 
-      <VerticalTimelineElement
+      {/* <VerticalTimelineElement
         className="vertical-timeline-element--work--last"
         contentStyle={{ background: "#210039", color: "#FFFFFF" }}
         contentArrowStyle={{ borderRight: "15px solid  #FFFFFF" }}
@@ -74,7 +81,7 @@ export default function VerticalOptions() {
         <h3 className="vertical-timeline-element-title">
           Redes sociales y contacto
         </h3>
-      </VerticalTimelineElement>
+      </VerticalTimelineElement> */}
     </VerticalTimeline>
   );
 }

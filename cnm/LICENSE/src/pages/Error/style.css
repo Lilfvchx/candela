@@ -1,7 +1,20 @@
-#root{
-    background-color:#10474b;
-    background-image:linear-gradient(to right, #23074d 0%, #cc5333 100%);
-   }
+.Navbar {
+   transform: translatex(23px) translatey(60px) !important;
+   background-image: none;
+}
  .xd{
     object-fit: fill;
  }
+ .Navbar{
+      background-image: none;
+ }
+ .navbar-toggle,
+ .Error nav{
+   background-image: url(obras.svg)
+ 
+ }
+ @media (max-width: 425px){
+.nav-menu {
+    transform: translatex(0px) translatey(0px);
+    background-image: none;
+}}
